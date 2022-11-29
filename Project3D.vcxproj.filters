@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{188ed4d7-e5a6-49f8-9edd-779a7e3a6a5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials">
+      <UniqueIdentifier>{a033fbcb-b502-44c7-837e-5fbf54f35100}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Application3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Instance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_obj_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Instance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\bin\shaders\Simple.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\Simple.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\Phong.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\stanford\Buddha.mtl">
+      <Filter>Materials</Filter>
+    </None>
+    <None Include="..\bin\stanford\Bunny.mtl">
+      <Filter>Materials</Filter>
+    </None>
+    <None Include="..\bin\stanford\Dragon.mtl">
+      <Filter>Materials</Filter>
+    </None>
+    <None Include="..\bin\shaders\textured.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\textured.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\normalmap.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\normalmap.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\screenSpace.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\screenSpace.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\soulspear\soulspear.mtl">
+      <Filter>Materials</Filter>
+    </None>
+    <None Include="..\bin\shaders\post.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\post.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\boxBlur.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\sharpen.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\chromatic.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\Phong.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\reflectiveWater.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\reflectiveWater.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\shadowGen.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\shadowGen.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\shadowUse.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\shadowUse.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\depthBuffer.frag">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
